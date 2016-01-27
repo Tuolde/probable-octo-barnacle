@@ -22,7 +22,7 @@ pod "probable-octo-barnacle"
 
 ## Author
 
-Jon, jon.burgermeister@gaiam.com
+Tuolde, tuolde@tuolde
 
 ## License
 

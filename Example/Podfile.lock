@@ -1,0 +1,24 @@
+PODS:
+  - FBSnapshotTestCase (2.0.7):
+    - FBSnapshotTestCase/SwiftSupport (= 2.0.7)
+  - FBSnapshotTestCase/Core (2.0.7)
+  - FBSnapshotTestCase/SwiftSupport (2.0.7):
+    - FBSnapshotTestCase/Core
+  - Kiwi (2.4.0)
+  - probable-octo-barnacle (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - Kiwi
+  - probable-octo-barnacle (from `../`)
+
+EXTERNAL SOURCES:
+  probable-octo-barnacle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  probable-octo-barnacle: ba4085d254061fe5e7c82df0b02ba9056cbd7547
+
+COCOAPODS: 0.39.0

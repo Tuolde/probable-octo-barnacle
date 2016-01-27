@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'probable-octo-barnacle_Example', :exclusive => true do
+  pod 'probable-octo-barnacle', :path => '../'
+end
+
+target 'probable-octo-barnacle_Tests', :exclusive => true do
+  pod 'probable-octo-barnacle', :path => '../'
+
+  pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+end

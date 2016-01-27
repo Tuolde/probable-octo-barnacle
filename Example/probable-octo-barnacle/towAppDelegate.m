@@ -7,12 +7,14 @@
 //
 
 #import "towAppDelegate.h"
+#import "towDeviceInformation.h"
 
 @implementation towAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    towDeviceInformation *deviceInfo = [[towDeviceInformation alloc] init];
+
     return YES;
 }
 
